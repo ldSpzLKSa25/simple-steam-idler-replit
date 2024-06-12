@@ -17,6 +17,8 @@ user.on('loggedOn', () => {
 	user.setPersona(status);               
 	user.gamesPlayed(games);
 
+ });
+
 var username2 = process.env.username2;
 var password2 = process.env.password2;
 
@@ -30,7 +32,7 @@ user2.on('loggedOn', () => {
  	if (user2.steamID != null) console.log(user2.steamID + ' - Successfully logged on');
  	user2.setPersona(status2);               
  	user2.gamesPlayed(games2);
-});
+ });
 
 //var username3 = process.env.username3;
 //var password3 = process.env.password3;
